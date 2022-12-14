@@ -101,7 +101,7 @@
         "preferred-install": "dist",
         "sort-packages": false,
         "platform": {
-            "php": "7.4"
+            "php": "8.1"
         },
         "allow-plugins": {
             "composer/installers": true,
@@ -109,7 +109,8 @@
             "drupal/core-composer-scaffold": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "johnpbloch/wordpress-core-installer": true,
-            "zaporylie/composer-drupal-optimizations": true
+            "zaporylie/composer-drupal-optimizations": true,
+            "phpstan/extension-installer": true
         }
     }
 }
