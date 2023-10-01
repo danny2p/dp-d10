@@ -1,0 +1,6 @@
+name: danny-d10
+recipe: pantheon
+config:
+  framework: drupal8
+  site: danny-d10
+  id: 65038665-1dce-415a-a4c3-918e1bfd6eb8
