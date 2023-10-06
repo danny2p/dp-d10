@@ -1,0 +1,4 @@
+react-app:
+  version: 1.x
+  js:
+    js/react-app/dist/app.bundle.js : {}

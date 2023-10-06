@@ -34,7 +34,7 @@ $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 if ($http_code === 200) {
     $token_data = json_decode($response, true);
     $access_token = $token_data['access_token'];
-    echo "Access Token: $access_token";
+    #echo "Access Token: $access_token";
 } else {
     echo "Error fetching token: HTTP $http_code - $response";
 }
@@ -42,3 +42,26 @@ if ($http_code === 200) {
 // Close cURL resource
 curl_close($ch);
 ?>
+
+<script type="text/javascript">
+import {
+  CommerceLayer,
+  PricesContainer,
+  Price
+} from '@commercelayer/react-components'
+
+// your code [...]
+
+<CommerceLayer accessToken="<?php echo $access_token;?>" endpoint="<?php echo $api_url;?>">
+  <PricesContainer>
+    <Price
+      skuCode="DD-1111"
+      className="price-wrapper"
+      compareClassName="price-compare"
+    />
+  </PricesContainer>
+</CommerceLayer>
+
+// your code [...]
+
+</script>

@@ -1,0 +1,7 @@
+commerce_layer.products:
+  path: '/products'
+  defaults:
+    _controller: '\Drupal\commerce_layer\Controller\ProductsController::content'
+    _title: 'Products'
+  requirements:
+    _permission: 'access content'
