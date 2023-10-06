@@ -2,3 +2,6 @@ react-app:
   version: 1.x
   js:
     js/react-app/dist/app.bundle.js : {}
+  css:
+    theme:
+      css/commerce-layer-custom.css : {}
