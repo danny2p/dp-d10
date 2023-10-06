@@ -1,3 +1,15 @@
+/**
+ * 
+ * Basic react app leveraging commerce layer react components. 
+ * https://github.com/commercelayer/commercelayer-react-components
+ * some use case examples directly in the github readme but more
+ * are included in the examples directory
+ * https://github.com/commercelayer/commercelayer-react-components/tree/main/examples
+ * 
+ * locally, execute npm run build in order to rebuild the app after making changes
+ * 
+ */
+
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import { useState, useEffect } from 'react'
