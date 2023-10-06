@@ -1,0 +1,48 @@
+#cl-product-price {
+  min-height: 350px;
+}
+
+.product-list {
+  float: left;
+  width: 600px;
+  display:block;
+}
+
+.shopping-cart {
+  float: left;
+  width: 300px;
+  display: block;
+}
+
+.price-wrapper {
+  float:left;
+  display: block;
+  width: 200px;
+}
+
+.price-wrapper::after {
+  content: " Sale Price"
+}
+
+.price-compare {
+  float: left;
+  display: block;
+  width: 200px;
+  text-decoration: line-through;
+}
+
+.price-compare::after {
+  content: " Original Price";
+  text-decoration: none;
+}
+
+.prices {
+  float: left;
+  width:200px;
+}
+
+.product-image {
+  float: left;
+  height: 200px;
+  padding-right: 30px;
+}
