@@ -5,3 +5,5 @@ react-app:
   css:
     theme:
       css/commerce-layer-custom.css : {}
+  dependencies:
+    - core/drupalSettings
